@@ -1,41 +1,38 @@
-### Frappe Fleet
+# 🚛 Frappe Fleet
+### Fleet & Garage Management for ERPNext
 
-Fleet & Garage Management for ERPNext
+Built by **AMT Cameroun SA** — a complete fleet management solution for logistics companies, oil & gas operators, and any organization managing heavy equipment in Cameroon and beyond.
 
-### Installation
+---
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| ⛽ Multi-Tank Fuel Management | Track Diesel, Super & Kerosene tanks with live levels |
+| 🔧 Maintenance Log | Service history with parts tracking & auto alerts |
+| 💰 Expense Request Workflow | Purchase Officer → Director of Operations approval |
+| 📋 Monthly Prebilling | Auto-generate Prebilling Minute PDF per client |
+| 📊 Fleet Dashboard | Live fuel levels, services due, pending requests |
+| 📈 Profitability Analysis | Revenue vs cost per equipment over time |
+| 🚗 Equipment Master | 20+ fleet tracking fields on ERPNext Asset |
+
+## Installation
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app frappe_fleet
+bench get-app git@github.com:blaisefonyuy/frappe-fleet.git
+bench --site your-site.com install-app frappe_fleet
+bench --site your-site.com migrate
 ```
 
-### Contributing
+## Requirements
+- ERPNext 15+
+- Frappe 15+
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## Roles Created on Install
+- **Fuel Agent** — fuel dispensing only
+- **Purchase Officer** — expense request management
+- **Garage Chief** — full fleet management & dashboard
 
-```bash
-cd apps/frappe_fleet
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
-
-
-### License
-
-mit
+## License
+MIT — AMT Cameroun SA 2026
