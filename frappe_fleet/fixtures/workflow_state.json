@@ -1,0 +1,56 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": null,
+  "modified": "2026-09-23 13:25:18",
+  "name": "EER Approved",
+  "style": "Success",
+  "workflow_state_name": "EER Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": null,
+  "modified": "2026-09-23 13:25:18",
+  "name": "EER Draft",
+  "style": "Primary",
+  "workflow_state_name": "EER Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": null,
+  "modified": "2026-09-23 13:25:18",
+  "name": "EER Paid",
+  "style": "Success",
+  "workflow_state_name": "EER Paid"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": null,
+  "modified": "2026-09-23 13:25:18",
+  "name": "EER Rejected",
+  "style": "Danger",
+  "workflow_state_name": "EER Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": null,
+  "modified": "2026-09-23 13:25:18",
+  "name": "Pending DOO Approval",
+  "style": "Warning",
+  "workflow_state_name": "Pending DOO Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": null,
+  "modified": "2026-09-23 13:25:18",
+  "name": "Pending Purchase Review",
+  "style": "Warning",
+  "workflow_state_name": "Pending Purchase Review"
+ }
+]

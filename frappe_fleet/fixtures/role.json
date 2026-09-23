@@ -1,0 +1,41 @@
+[
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": null,
+  "is_custom": 0,
+  "modified": "2026-09-23 14:25:04.201080",
+  "name": "Fuel Agent",
+  "restrict_to_domain": null,
+  "role_name": "Fuel Agent",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": null,
+  "is_custom": 0,
+  "modified": "2026-09-23 14:25:04.762395",
+  "name": "Purchase Officer",
+  "restrict_to_domain": null,
+  "role_name": "Purchase Officer",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Role",
+  "home_page": null,
+  "is_custom": 0,
+  "modified": "2026-09-23 14:25:04.771744",
+  "name": "Garage Chief",
+  "restrict_to_domain": null,
+  "role_name": "Garage Chief",
+  "two_factor_auth": 0
+ }
+]
